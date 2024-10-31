@@ -1,0 +1,6 @@
+/bitrix/cache/
+/bitrix/backup/
+/bitrix/updates/
+/upload/
+/bitrix/tmp/
+/bitrix/php_interface/dbconn.php

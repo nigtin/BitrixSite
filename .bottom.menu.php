@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О компании", 
+		"/index.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"продукция", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"наши работы", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"услуги", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"производство", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"сотрудничество", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"обсада", 
+		"", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

@@ -1,0 +1,43 @@
+.bx-breadcrumb {
+    margin-top: 20px;
+}
+
+.bx-breadcrumb a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(34, 34, 34);
+    -moz-transform: scale(1, 1.01);
+    -webkit-transform: scale(1, 1.01);
+    -ms-transform: scale(1, 1.01);
+}
+
+.bx-breadcrumb svg {
+    margin-bottom: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.bx-breadcrumb .bx-breadcrumb-item {
+	float: left;
+	font-family: "Atyp Text";
+	white-space: nowrap;
+	font-size: 15px;
+ 	line-height: 1.867;
+	margin-right: 5px;
+	vertical-align: middle;
+
+}
+.bx-breadcrumb .bx-breadcrumb-item span {
+	font-family: "Atyp Text";
+	color: rgb(34, 34, 34);
+	font-size: 15px;
+	white-space: normal;
+}
+
+.bx-breadcrumb .bx-breadcrumb-item.last span{
+color: rgb(71, 166, 42);
+}
+.bx-breadcrumb .bx-breadcrumb-item a {border-bottom: none;}
+.bx-breadcrumb .bx-breadcrumb-item a:hover {}
+

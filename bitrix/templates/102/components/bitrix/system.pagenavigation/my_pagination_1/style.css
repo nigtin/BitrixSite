@@ -1,0 +1,35 @@
+.number_link, .modern-page-current {
+	padding: 8px 14px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(232, 232, 232);
+    background-color: rgb(250, 250, 250);
+}
+.number_link, .modern-page-current, .modern-page-dots{
+  	text-decoration: none;
+	font-size: 16px;
+  	font-family: "Atyp Text";
+ 	color: rgb(34, 34, 34);
+  	text-transform: uppercase;
+  	line-height: 1.5;
+  	font-weight: 600;
+  	-moz-transform: scale(1, 1.01);
+  	-webkit-transform: scale(1, 1.01);
+  	-ms-transform: scale(1, 1.01);
+	text-align: center;
+	margin: 0 3px;
+}
+
+
+.modern-page-current{
+background-color: rgb(71, 166, 42);
+color: rgb(255, 255, 255);
+}
+
+.modern-page-previous{
+margin-right: 10px;
+}
+
+.modern-page-next{
+margin-left: 10px;
+}

@@ -1,0 +1,95 @@
+.main2-content .catalog{
+max-width: 1038px;
+width: 100%;
+}
+.catalog-items {
+    gap: 42px;
+    display: grid;
+    grid-template-columns: repeat(3, 318px);
+    /* Три столбца с равной шириной */
+    width: 100%;
+    justify-content: space-between;
+}
+.catalog .svg-icon {
+    margin-left: 4px;
+    transform: translateY(-1px);
+
+}
+
+.sort-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+
+}
+
+.sort-by,
+.show-count {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #777;
+}
+
+.sort-by span,
+.show-count span {
+    margin-right: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    padding: 5px 10px;
+
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(34, 34, 34);
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: left;
+    -moz-transform: scale(1, 1.01);
+    -webkit-transform: scale(1, 1.01);
+    -ms-transform: scale(1, 1.01);
+}
+
+.show-count .dropdown-toggle {
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(232, 232, 232);
+    background-color: rgb(255, 255, 255);
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    min-width: 67px;
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    white-space: nowrap;
+    padding: 8px 12px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}

@@ -1,0 +1,30 @@
+.footer-nav ul {
+    display: flex;
+
+    justify-content: space-between;
+    list-style: none;
+}
+
+.footer-nav_container {
+    margin: 0 auto;
+    max-width: 1000px;
+    min-width: 690px;
+    width: 100%;
+}
+
+.footer-nav a {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1.429;
+    -moz-transform: scale(1, 1.01);
+    -webkit-transform: scale(1, 1.01);
+    -ms-transform: scale(1, 1.01);
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: rgb(200, 168, 123);
+}
